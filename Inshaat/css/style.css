@@ -205,15 +205,25 @@ footer {
   padding: 55px 0;
   text-align: center;
 }
-.icon i {
+.icon{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 20px;
+}
+.cnticon{
+  width: 80px;
+  height: 80px;
   padding: 30px;
   margin: 10px 0;
-  background: var(--blue);
   border-radius: 50%;
+  background: var(--blue);
+}
+.cnticon i {
   font-size: 1.3em;
   transition: 0.2s;
 }
-.icon i:hover {
+.cnticon i:hover {
   background: #ff8a1d;
 }
 .contacticons hr {
@@ -307,7 +317,6 @@ hr {
   .contacticons {
     display: flex;
     align-items: center;
-    padding: 0 20px;
   }
   .contacticons hr{
     height: 1px;
