@@ -1,0 +1,316 @@
+:root {
+  --blue: #0355cc;
+}
+header {
+  text-align: center;
+  background: #d1e3ff;
+}
+#contacts {
+  background-color: #000;
+  color: #fff;
+  padding: 15px 25px;
+  i {
+    color: #ff8a1d;
+    margin: 0 5px 0 0;
+    font-size: 0.9em;
+  }
+  p {
+    padding: 5px 0;
+  }
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  background: #d1e3ff;
+  padding: 10px 25px;
+}
+nav span {
+  font: 600 1.5em Lato, sans-serif;
+  color: var(--blue);
+}
+#menu {
+  display: none;
+}
+#menu a {
+  color: #000;
+}
+.fa-bars {
+  font-size: 1.5em;
+}
+#repair {
+  padding: 45px 3% 0 3%;
+}
+h1 {
+  font: 700 2em "Merriweather Sans", sans-serif;
+  width: 200px;
+  color: var(--blue);
+}
+h2 {
+  font: 400 1.25em "Merriweather Sans", sans-serif;
+  color: #555089;
+  text-transform: uppercase;
+}
+.active h2,
+h2:hover {
+  color: #fff;
+}
+h3 {
+  font: 700 2em "Merriweather Sans", sans-serif;
+  text-transform: uppercase;
+}
+h4 {
+  font: 1.5em "Merriweather Sans", sans-serif;
+  margin: 35px 0;
+}
+.repairtxt {
+  text-align: left;
+  padding: 0 0 45px 0;
+}
+.txt p {
+  margin: 30px 0;
+  color: #444;
+  font-size: 15px;
+  line-height: 1.5;
+}
+.btn {
+  display: inline-block;
+  padding: 10px 45px;
+  border: 1px solid transparent;
+  color: #fff;
+  border-radius: 2px;
+  font: 400 1em "Merriweather Sans", sans-serif;
+  text-transform: uppercase;
+  transition: 0.2s;
+}
+.bgorange {
+  background: #ff8a1d;
+}
+.bgorange:hover {
+  background: #fff;
+  border: 1px solid #ff8a1d;
+  color: #ff8a1d;
+}
+.repairimg img {
+  width: 100%;
+  height: 100%;
+}
+#herobanner {
+  padding: 80px 3%;
+  text-align: center;
+}
+.card {
+  padding: 45px 15px;
+  border: 1px solid #fff;
+  box-shadow: 0px 0px 8px #aaa;
+  margin: 15px 0;
+  transition: 0.2s;
+}
+#herobanner .active,
+.card:hover {
+  background: #ff8a1d;
+}
+.card:hover h2 {
+  color: #fff;
+}
+.card:hover svg,
+.active svg {
+  fill: #fff;
+}
+#aboutus {
+  padding: 0 3% 90px 3%;
+}
+.abouttxt {
+  margin: 0 0 45px 0;
+}
+.aboutimg img {
+  width: 100%;
+  height: 100%;
+}
+.bgblue {
+  background: var(--blue);
+}
+.bgblue:hover {
+  background: #fff;
+  color: var(--blue);
+  border: 1px solid;
+}
+#homesrv,
+#contactus,
+#services,
+#contactus {
+  padding: 90px 3%;
+}
+#homesrv {
+  background: #d1e3ff;
+}
+#homesrv h3 {
+  color: var(--blue);
+}
+.homeimg img {
+  display: none;
+}
+#services h3 {
+  margin: 0 0 30px 0;
+  text-align: center;
+}
+.services .card {
+  text-align: center;
+}
+.sertxt {
+  padding: 10px 0 0 0;
+}
+.sertxt p {
+  margin: 15px 0;
+}
+.card img {
+  width: 65px;
+  height: 65px;
+}
+.card:hover h4,
+.card:hover .sertxt p {
+  color: #fff;
+}
+.viewmore {
+  text-align: center;
+  margin: 30px 0 0 0;
+}
+#contactus h3 {
+  margin: 0 0 20px 0;
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+input,
+textarea {
+  padding: 20px;
+  outline: none;
+  border: none;
+  box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.2);
+  margin: 10px 0;
+}
+input::placeholder,
+textarea::placeholder {
+  font-size: 1.2em;
+}
+.submit {
+  width: 150px;
+  margin: 30px 0;
+}
+footer {
+  background: #0a0f43;
+  color: #fff;
+}
+#getintouch {
+  padding: 55px 0;
+  text-align: center;
+}
+.icon i {
+  padding: 30px;
+  margin: 10px 0;
+  background: var(--blue);
+  border-radius: 50%;
+  font-size: 1.3em;
+  transition: 0.2s;
+}
+.icon i:hover {
+  background: #ff8a1d;
+}
+.contacticons hr {
+  height: 70px;
+  width: 1px;
+  background: #fff;
+  border: 0;
+  margin: auto;
+}
+.socialicons i {
+  font-size: 1.2em;
+  padding: 10px 20px;
+}
+hr {
+  width: 90%;
+  margin: auto;
+}
+.copyright {
+  padding: 20px 0;
+  text-align: center;
+}
+@media only screen and (min-width: 768px) {
+  #contacts {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  #menu {
+    display: flex;
+    gap: 40px;
+    padding: 10px;
+  }
+  #menu a.active,
+  #menu a:hover {
+    color: var(--blue);
+  }
+  .fa-bars {
+    display: none;
+  }
+  .container {
+    max-width: 1200px;
+    margin: auto;
+  }
+  #repair,
+  #aboutus,
+  .homesrv,
+  .contactus {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+  }
+  .txt,
+  form,
+  .map {
+    width: 50%;
+  }
+  h1 {
+    font-size: 2.5em;
+    width: 250px;
+  }
+  .repairimg,
+  .aboutimg,
+  .homeimg {
+    width: 50%;
+  }
+  #herobanner,
+  .services {
+    display: flex;
+    gap: 20px;
+  }
+  .card {
+    width: 33.33%;
+  }
+  .homeimg img {
+    display: initial;
+    width: 100%;
+    height: 100%;
+  }
+  .services {
+    justify-content: space-between;
+  }
+  .sertxt {
+    width: 100%;
+  }
+  .contacticons {
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+  }
+  .contacticons hr{
+    height: 1px;
+    width: 300px;
+  }
+}
